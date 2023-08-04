@@ -1,0 +1,21 @@
+package com.programs.java;
+
+public class stringfor 
+{
+	public static void main(String[] args)
+	{
+		int numbers[]= {1,2,3,4,5};
+		for (int x:numbers)
+		{
+			System.out.println(x);
+			System.out.println();
+		}
+        String[] bike= {"Nija","KTM","Duke"};
+        for(String k:bike)
+        	{
+        	System.out.println(k);
+        	}
+        	}
+
+}
+
