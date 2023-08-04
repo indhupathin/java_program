@@ -1,0 +1,20 @@
+package com.programs.java;
+import java.util.Scanner;
+public class whileloop 
+{
+	public static void main(String[] args) 
+	{
+	try (Scanner sc = new Scanner(System.in)) {
+		int x=sc.nextInt();
+		while(x<=10)
+		{
+			System.out.println("x ix:"+x);
+			x++;
+			System.out.println();
+		}
+	}
+	
+	
+
+}
+}
